@@ -20,7 +20,7 @@ module.exports = (dal) => {
 
 
 
-/*    router.post('/', checkJwt({secret: secret}), (req, res) => {
+        router.post('/', (req, res) => {
         let category = {
             category : req.body.category,
             books : req.body.books// books array
@@ -28,26 +28,8 @@ module.exports = (dal) => {
         console.log(req.body);
         console.log("consolelog category" + category)
         dal.createCategory(category).then(newCategory => res.json(newCategory));
-    });*/
+    });
 
-    router.post('/', checkJwt({ secret: secret }), (req, res) => {
-        this.bookModel.find({name: req.body.category}, (err, category) => {
-            if(category.length != 0){
-                res.json({
-                    message: 'Category already exists!'
-                })
-            } else {
-                let category = new this.bookModel({
-                    category : req.body.category,
-                    books : req.body.books// books array
-                });
-                category.save();
-                res.json({
-                    message: 'ok'
-                })
-            }
-        })
-    })
 
 
     router.post('/signup', (req, res) => {
