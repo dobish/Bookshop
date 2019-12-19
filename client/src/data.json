@@ -1,0 +1,97 @@
+[
+  {
+    "hobbies": [
+      "purring",
+      "eating",
+      "people watching",
+      "sleeping"
+    ],
+    "_id": "5d9c824bc5409100175abfc1",
+    "name": "Felix",
+    "__v": 0
+  },
+  {
+    "hobbies": [
+      "purring",
+      "people watching"
+    ],
+    "_id": "5d9c824bc5409100175abfc2",
+    "name": "Garfield",
+    "__v": 0
+  },
+  {
+    "hobbies": [
+      "purring",
+      "sleeping",
+      "people watching",
+      "eating"
+    ],
+    "_id": "5d9c824bc5409100175abfc3",
+    "name": "Tom",
+    "__v": 0
+  },
+  {
+    "hobbies": [
+      "sleeping",
+      "eating",
+      "purring"
+    ],
+    "_id": "5d9c824bc5409100175abfc6",
+    "name": "Snowball",
+    "__v": 0
+  },
+  {
+    "hobbies": [
+      "sleeping"
+    ],
+    "_id": "5d9c824bc5409100175abfc4",
+    "name": "Felix",
+    "__v": 0
+  },
+  {
+    "hobbies": [
+      "sleeping",
+      "eating"
+    ],
+    "_id": "5d9c824bc5409100175abfc5",
+    "name": "Garfield",
+    "__v": 0
+  },
+  {
+    "hobbies": [
+      "sleeping",
+      "purring",
+      "eating"
+    ],
+    "_id": "5d9c824bc5409100175abfc8",
+    "name": "Snowball",
+    "__v": 0
+  },
+  {
+    "hobbies": [
+      "sleeping"
+    ],
+    "_id": "5d9c824bc5409100175abfc9",
+    "name": "Garfield",
+    "__v": 0
+  },
+  {
+    "hobbies": [
+      "sleeping",
+      "eating",
+      "purring"
+    ],
+    "_id": "5d9c824bc5409100175abfc7",
+    "name": "Garfield",
+    "__v": 0
+  },
+  {
+    "hobbies": [
+      "purring",
+      "sleeping"
+    ],
+    "_id": "5d9c824bc5409100175abfca",
+    "name": "Garfield",
+    "__v": 0
+  }
+]
