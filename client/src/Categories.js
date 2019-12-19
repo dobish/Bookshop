@@ -59,7 +59,7 @@ class Categories extends Component {
     render() {
         return (
             <React.Fragment>
-                <h1>Categories</h1>
+                <h1>Categories (full-stack)</h1>
                 <ol>
                     {this.props.categories.map(c =>(
                         <li key={c._id}>
